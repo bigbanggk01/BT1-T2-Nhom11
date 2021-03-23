@@ -1,0 +1,85 @@
+.html{
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    display: block;
+    overflow: auto;
+}
+
+*{
+    box-sizing: inherit;
+}
+body{
+    display: block;
+}
+#header{
+    font-family: 'Chango', cursive;
+    background-color: #333;
+    color: #eee;
+    margin-top: 0px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: solid lawngreen 3px;
+}
+
+#header_webname{
+    margin-left: 32%;
+}
+
+contain{
+    display: block;
+    background-color: #333;
+    font-family: 'Chango', cursive;
+    height:40rem;
+    color: #eee;
+    margin-top: 0;
+    padding-top: 1px;
+}
+
+#login_button{
+    margin-left: 45%;
+    margin-top: 10rem;
+}
+#login_button:hover{
+    color: orange;
+    cursor: pointer;
+}
+
+form{
+    margin-left:40%;
+    margin-top: 10rem;
+    background-color: #eee;
+    height: 20rem;
+    width: 20rem;
+    border-radius: 4px;
+    display: none;
+}
+
+#input{
+    position: relative;
+    top: 20px;
+    left: 10px;
+}
+#howto{
+    position: relative;
+    top: 20px;
+    left: 10px;
+    color: #333;
+}
+
+#close_button{
+    position: relative;
+    top:1rem;
+    left:17rem;
+}
+
+footer{
+    display: block;
+    background-color: #333;
+    font-family: 'Chango', cursive;
+    height:5.8rem;
+    color: #eee;
+    margin-top: 0;
+    padding-top: 1px;
+    padding-left: 5rem;
+    border-top: solid lawngreen 3px;
+}
